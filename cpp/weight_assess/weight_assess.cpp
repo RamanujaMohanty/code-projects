@@ -8,12 +8,16 @@
 
 using namespace std;
 
+// struct to store respondent respondents & weights
+// composed of name and double vector weights.
 struct respondent
 {
     string name;
     vector<double> weights;
 };
 
+// function to calculate arithmetic mean score
+// formula: score = sum(w[ii] * s[ii])
 double arithmeticMeanCalc(const vector<double>& s, const vector<double>& w)
 {
     double score = 0.0;
@@ -24,6 +28,8 @@ double arithmeticMeanCalc(const vector<double>& s, const vector<double>& w)
     return score;
 }
 
+// function to calculate geometric mean score
+// formula: score = (s[ii] ^ w[ii]) * (s[ii + 1] ^ w[ii + i])
 double geometricMeanCalc(const vector<double>& s, const vector<double>& w)
 {
     double score = 1.0;
@@ -36,13 +42,31 @@ double geometricMeanCalc(const vector<double>& s, const vector<double>& w)
 
 int main()
 {
-    vector<double> s_degrees = {0.90, 0.81, 0.75, 0.41};
-    vector<double> correct_w = {0.270, 0.145, 0.455, 0.130};
-    double correct_s = arithmeticMeanCalc(s_degrees, correct_w);
-    vector<respondent> respondents = {
+    vector<double> s_degrees = {0.90, 0.81, 0.75, 0.41};            // suitability degrees
+    vector<double> correct_w = {0.270, 0.145, 0.455, 0.130};        // correct weights
+    double correct_s = arithmeticMeanCalc(s_degrees, correct_w);    // correct benchmark score
+
+    // respondent weights stored in a vector of respondent structs
+    vector<respondent> respondents =
+    {
         {"Aaron",   {0.280, 0.150, 0.420, 0.150}},
-        {"Evan",    {0.250, 0.125, 0.459, 0.166}},
-        {"Mark",    {0.250, 0.135, 0.300, 0.215}}
+        {"Evan",    {0.150, 0.125, 0.459, 0.166}},
+        {"Mark",    {0.210, 0.135, 0.300, 0.215}}
     };
+
+    // comparison table output
+    cout << fixed << setprecision(4);
+    cout << "weight assessment: error analysis | (n = 4)\n";
+    cout << "correct suitability (s): " << correct_s << "\n\n";
+    cout << left << setw(15) << "respondent" << setw(12) << "score (s)" << setw(12)
+        << "error (e)" << "rel error (%)" << endl;
+    cout << string(55, '-') << endl;
+
+    vector<double> avg_weights(4, 0.0);
+
+    for (const auto& r : respondents)
+    {
+        double s = arithmeticMeanCalc(const vector<double> &s, const vector<double> &w)
+    }
     return 0;
 }
