@@ -41,11 +41,12 @@ double geometricMeanCalc(const vector<double>& s, const vector<double>& w)
 
 int main()
 {
-    vector<double> s_degrees = {0.90, 0.81, 0.75, 0.41};            // suitability degrees
-    vector<double> correct_w = {0.270, 0.145, 0.455, 0.130};        // correct weights
+    vector<double> s_degrees = {0.90, 0.81, 0.75, 0.41};            // suitability degrees - up to you to choose
+    vector<double> correct_w = {0.270, 0.145, 0.455, 0.130};        // correct weights - correct circle percents - up to you
     double correct_s = arithmeticMeanCalc(s_degrees, correct_w);    // correct benchmark score
 
     // respondent weights stored in a vector of respondent structs
+    // Need to enter your provided weights.
     vector<respondent> respondents =
     {
         {"Aaron",   {0.280, 0.150, 0.420, 0.150}},
