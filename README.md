@@ -8,7 +8,7 @@ This repository is organized by programming language. Below is a tree structure 
 
 ---
 
-### ![Assembly (MIPS)](https://img.shields.io/badge/MIPS-FF06B5?style=for-the-badge&logo=mips&logoColor=white)
+### ![Assembly (MIPS)](https://img.shields.io/badge/ASM(MIPS)-FF06B5?style=for-the-badge&logo=mips&logoColor=white)
 
 ---
 
