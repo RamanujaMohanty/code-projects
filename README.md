@@ -40,6 +40,10 @@ This repository is organized by programming language. Below is a tree structure 
 
 ---
 
+### ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+
+---
+
 ### ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 
 * **cellauto**: A cellular automaton simulation.
