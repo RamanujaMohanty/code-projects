@@ -65,6 +65,10 @@ This repository is organized by programming language. Below is a tree structure 
 
 ---
 
+### ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+
+---
+
 ### ![Rust](https://img.shields.io/badge/Rust-B7410E?style=for-the-badge&logo=rust&logoColor=white)
 
 * **rs**: This directory contains projects written in Rust.
