@@ -42,6 +42,11 @@ This repository is organized by programming language. Below is a tree structure 
 
 ### ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 
+* **addressable\_rainbow**: Code for controlling RGB LEDs.
+* **control\_light**: Basic LED control.
+* **godfather\_piezo**: Piezo linked to potentiometer. Designed to play theme from *The Godfather*.
+* more...
+
 ---
 
 ### ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
