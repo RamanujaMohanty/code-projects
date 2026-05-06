@@ -67,6 +67,9 @@ This repository is organized by programming language. Below is a tree structure 
 
 ### ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
+* **Discrete\_Distribution\_Experiment**: File for testing discrete distributions.
+* **test\_init**: Initial R commit.
+
 ---
 
 ### ![Rust](https://img.shields.io/badge/Rust-B7410E?style=for-the-badge&logo=rust&logoColor=white)
