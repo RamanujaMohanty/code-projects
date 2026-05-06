@@ -8,6 +8,10 @@ This repository is organized by programming language. Below is a tree structure 
 
 ---
 
+### ![Assembly (MIPS)](https://img.shields.io/badge/MIPS-FF06B5?style=for-the-badge&logo=mips&logoColor=white)
+
+---
+
 ### ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 
 * **ds**: Data Structures
